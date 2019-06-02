@@ -16,7 +16,6 @@ import com.ex.repo.ProductRepository;
 @RestController
 public class RestControllerClass {
 	
-	
 	@Autowired
 	ProductRepository repo;
 
