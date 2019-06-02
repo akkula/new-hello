@@ -25,6 +25,7 @@ public class RestControllerClass {
 		ResponseEntity<Object> res = null;
 		
 		repo.save(new Employee((long) 1, "malli", "hello"));
+		//oiuy
 		//lkh
 //lkhkjgj
 		// res = ResponseEntity.status(HttpStatus.ACCEPTED).body(new
