@@ -6,4 +6,7 @@ public class SameClassWorking {
 ///how to solve this one
 //both developer need to be solve
 ////
+	public void m1() {
+		System.out.println("hello this is ygy");
+	}
 }
