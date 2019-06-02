@@ -32,7 +32,6 @@ public class RestControllerClass {
 		res = ResponseEntity.ok().build();
 
 		return res;
-
 	}
 	@PutMapping
 	@RequestMapping("/update")
