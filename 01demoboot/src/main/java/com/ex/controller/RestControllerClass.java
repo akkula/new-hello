@@ -23,7 +23,7 @@ public class RestControllerClass {
 
 	@PostMapping
 	@RequestMapping(value = "/displayProducts", consumes = "application/json", produces = "application/json")
-	public ResponseEntity<Object> getProductDetails() {
+	public ResponseEntity<Object> getProductDetailsOfTheProduct() {
 
 		ResponseEntity<Object> res = null;
 		
