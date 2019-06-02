@@ -5,5 +5,5 @@ public class SameClassWorking {
 ///is making mess
 ///how to solve this one
 //both developer need to be solve
-///
+////
 }
