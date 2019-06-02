@@ -17,14 +17,12 @@ import com.ex.repo.ProductRepository;
 
 @RestController
 public class RestControllerClass {
-	
 	@Autowired
 	ProductRepository repo;
 
 	@PostMapping
 	@RequestMapping(value = "/displayProducts", consumes = "application/json", produces = "application/json")
 	public ResponseEntity<Object> getProductDetailsOfTheProducts() {
-
 		ResponseEntity<Object> res = null;
 		
 		repo.save(new Employee((long) 1, "malli", "hello"));
